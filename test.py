@@ -10,7 +10,6 @@ dr.close()
 poem = '''
 testgit
 '''
-with open('git_test.txt', 'wt') as fout:
+with open(r'D:\PHOTO\曾松点开看看123.txt', 'wt') as fout:
    fout.write(poem)
-
 
