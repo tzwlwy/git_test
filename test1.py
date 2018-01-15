@@ -8,9 +8,11 @@ dr.get('https://www.baidu.com/')
 time.sleep(1)
 dr.close()
 poem = '''
-testgit
+test
 '''
-with open('git_test.txt', 'wt') as fout:
+with open('data_list.txt', 'wt') as fout:
    fout.write(poem)
+
+
 
 
